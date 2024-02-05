@@ -1,1 +1,22 @@
+---
+test-cases:
+  - summary: |
+      Поиск товара по ключевому слову
+    status: fail
 
+bugreports:
+  - summary: |
+      Не работает поиск товара по ключевому слову
+    environment: |
+      Mozilla Firefox Version 122.0 (64 бит)
+      Windows 11 Pro
+    steps-to-reproduce: |
+      1. Зайти на страницу https://hexlet-products-store.vercel.app/
+      2. В поле "Поиск" вводим ключевое слово
+    expected-result: |
+      На странице отображаются все позиции каталога, содержащие ключевое слово
+    actual-result: |
+      Поиск не происходит
+      Страница отображается без изменений
+      Screen8a.png
+      Screen8b.png
