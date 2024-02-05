@@ -107,7 +107,7 @@ bugreports:
       Товары попадают в ценовой диапазон без учета скидки и их текущей стоимости
       Screen11.png
 
- - summary: |
+  - summary: |
       Проблема с переключением языка  
     environment: |
       Mozilla Firefox Version 122.0 (64 бит)
@@ -121,7 +121,7 @@ bugreports:
       Описание товаров на русский язык не переводится
       Screen12.png
 
- - summary: |
+  - summary: |
       Проблема с очисткой корзины  
     environment: |
       Mozilla Firefox Version 122.0 (64 бит)
