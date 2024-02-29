@@ -71,7 +71,7 @@
     Screen5_.png
 
 - summary: |
-    Проблема с выбором товаров по производителю  
+    Выбор товаров по производителю привязан к текущей открытой странице  
   environment: |
     Mozilla Firefox Version 122.0 (64 бит)
     Windows 11 Pro
@@ -86,7 +86,7 @@
     Screen6b_.png
 
 - summary: |
-    Проблема с переключением языка  
+    Не переводится описание товаров на русский язык   
   environment: |
     Mozilla Firefox Version 122.0 (64 бит)
     Windows 11 Pro
@@ -100,7 +100,7 @@
     Screen7.png
 
 - summary: |
-    Проблема с просмотром фотографий выбранного товара  
+    Фотографии товаров не кликабельны, не открываются 
   environment: |
     Mozilla Firefox Version 122.0 (64 бит)
     Windows 11 Pro
