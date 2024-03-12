@@ -153,7 +153,35 @@
     Корзина пуста
     Screen18a.png
     Screen18b.png
-  
+
+- summary: |
+    Не отображается значок английского языка  
+  environment: |
+    Mozilla Firefox Version 122.0 (64 бит)
+    Windows 11 Pro
+  steps-to-reproduce: |
+    1. Кликаем на кнопку "Язык"
+  expected-result: |
+    В выпадающем окне отображаются возможные для переключения языки со значками (флагами) 
+  actual-result: |
+    Значок английского языка не отображается
+    Screen19.png
+
+- summary: |
+    При нажатии кнопки "Оформить заказ", оформление заказа не происходит
+  environment: |
+    Mozilla Firefox Version 122.0 (64 бит)
+    Windows 11 Pro
+  steps-to-reproduce: |
+    1. Переходим в корзину с добавленными товарами
+    2. Открываем DevTools, вкладка Console, подвкладка Errors
+    3. Нажимаем кнопку "Оформить заказ"
+  expected-result: |
+    Происходит оформление заказа 
+  actual-result: |
+    Оформление заказа не происходит, мы видим ошибку
+    Screen20.png
+
   
     
     
