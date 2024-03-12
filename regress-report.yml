@@ -77,12 +77,12 @@ test-cases:
     status: fail
 
   - summary: |
-    Проверка интерфейса переключения языков
-  status: pass
+      Проверка интерфейса переключения языков
+    status: pass
 
   - summary: |
-    Проверка функционала формления заказа
-  status: fail
+      Проверка функционала формления заказа
+    status: fail
 
 bugreports:
   - summary: |
